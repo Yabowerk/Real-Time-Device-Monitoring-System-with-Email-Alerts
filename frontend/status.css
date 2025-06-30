@@ -1,0 +1,87 @@
+.container{
+    margin: 100px 200px;
+    background-color: black;
+    display: inline-block;
+    width: 450px;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px rgb(172, 172, 168);
+    transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.container:hover{
+    transform: scale(1.12);
+    box-shadow:0 4px 15px rgb(19, 19, 101) ;
+}
+.imgcont{
+    display: inline-block;
+    background-color: aliceblue;
+     width: 400px;
+    height: 200px;
+    position: relative;
+    top: 12px;
+    left: 22px;
+   border-radius: 6px;
+
+}
+img{
+    object-fit: contain;
+    width: 100%;
+}
+.devicename{
+    font-size: 25px;
+    font-weight: 1000;
+    position: relative;
+}
+.statusdesc{
+    position: absolute;
+    top: 250px;
+    left:20px;
+    height: 230px;
+    width: 400px;
+
+    background-color: blue;
+    display:flex;
+    flex-direction: column;
+
+  align-items: center; 
+}
+p{
+    margin: 0;
+    color: white;
+    
+}
+.statusgrid{
+    background-color:grey;
+    width: 400px;
+    height: 190px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+   
+    margin-top: 12px;
+
+}
+.statusgrid p {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 15px;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+.a,.c,.e{
+   /* background-color: green;*/
+    margin-left: 12px;
+    font-size: 15px;
+    padding: 0;
+}
+.b,.d,.f{
+    /*background-color: red;*/
+    margin-left: 12px;
+}
+body {
+    
+    background-color: rgb(40, 37, 37);
+ 
+}
