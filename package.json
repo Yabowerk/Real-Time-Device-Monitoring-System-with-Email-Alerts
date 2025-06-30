@@ -1,0 +1,25 @@
+{
+  "name": "3d-objects",
+  "version": "1.0.0",
+  "main": "abc.js",
+  "scripts": {
+    "start": "nodemon dsdatabase.js",
+    "server": "nodemon xserver.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.5",
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.14.1",
+    "nodemon": "^3.1.10",
+    "resend": "^4.5.2"
+  }
+}
