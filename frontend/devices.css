@@ -1,0 +1,84 @@
+.devicecon{
+    display: inline-block;
+    width:300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 19px;
+    position: relative;
+    box-shadow: 0 4px 8px rgb(172, 172, 168);
+    transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.devicecon:hover{
+    transform: scale(1.12);
+    box-shadow:0 4px 15px rgb(19, 19, 101) ;
+}
+.imgcont{
+    background-color: white;
+    border-radius: 8px;
+    width: 250px;
+    height:150px;
+    position: absolute;
+    top: 10px;
+    left: 7%;
+}
+.devicename{
+    position: absolute;
+    top: 160px;
+    left: 20%;
+    font-weight: bolder;
+    font-size: 27px;
+     white-space: nowrap;
+}
+.ipaddress1,.ipaddress2,.ipaddress3,.ipaddress4,.ipaddress5,.ipaddress,.ipaddress6,.ipaddress7,.ipaddress8,.ipaddress9,.ipaddress10{
+    position: absolute;
+    top: 210px;
+    
+}
+.statuscon1,.statuscon2,.statuscon3,.statuscon4,.statuscon5,.statuscon6,.statuscon7,.statuscon8,.statuscon9,.statuscon10{
+     position: absolute;
+     top: 230px;
+  
+}
+.access1,.access2,.access3,.access4,.access5,.access6,.access7,.access8,.access9,.access10{
+background-color: grey;
+position: absolute;
+top: 270px;
+}
+.statusdesc{
+display:flex;
+justify-content:center;
+  align-items: center; 
+}
+button{
+font-weight: bold;
+padding: 5px 20px;
+border-radius: 2px;
+border: none;
+}
+.grid{
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 12px;
+    row-gap: 12px;
+}
+.good {
+  background-color: green;
+  color: white;
+}
+.warning {
+  background-color: yellow;
+  color: black;
+}
+.critical {
+  background-color: red;
+  color: white;
+}
+body{
+   background-color: rgb(40, 37, 37);
+}
+p{
+    color: white;
+}
+h1{
+  color: rgb(0, 255, 21);
+}
